@@ -1,0 +1,41 @@
+[
+  {
+    "id": 0,
+    "name": "ding",
+    "age": "27",
+    "info": "test",
+    "image": "/assets/portrait-caucasian-man-with-arms-crossed_53876-13490.png",
+    "imageCount": "1/2",
+    "Interesser": "Musik",
+    "Interesser2": "Kunst",
+    "Interesser3": "Natur",
+    "Interesser4": "Fitness",
+    "gender": "man"
+  },
+  {
+    "id": 1,
+    "name": "Anna",
+    "age": "23",
+    "info": "tests",
+    "image": "/assets/woman.png",
+    "imageCount": "1/3",
+    "Interesser": "Musik",
+    "Interesser2": "Kunst",
+    "Interesser3": "Natur",
+    "Interesser4": "Fitness",
+    "gender": "woman"
+  },
+  {
+    "id": 2,
+    "name": "dang",
+    "age": "227",
+    "info": "t2est",
+    "image": "/assets/portrait-of-a-young-man-smiling.png",
+    "imageCount": "1/4",
+    "Interesser": "Musik",
+    "Interesser2": "Kunst",
+    "Interesser3": "Natur",
+    "Interesser4": "Fitness",
+    "gender": "man"
+  }
+]

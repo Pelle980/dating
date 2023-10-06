@@ -1,0 +1,127 @@
+h2 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.pfp {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.settings {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+}
+
+.imgupload {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  top: 30px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+h3 {
+  text-align: center;
+  font-size: 17px;
+}
+
+h4 {
+  align-items: center;
+  text-align: center;
+}
+
+.buy {
+  width: 200px;
+  height: 48px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 25px;
+}
+
+footer a {
+  width: 25%;
+  justify-content: center;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.swip {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swip img {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+}
+.chat {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.profile {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+}
+.support {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.support img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}

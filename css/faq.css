@@ -1,0 +1,135 @@
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: auto;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+/* Hvis .accordion har .actice class'en, skal den være display block. Hvis ikke - display none */
+.accordion .panel {
+  display: none;
+}
+
+.accordion.active .panel {
+  display: block;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.show {
+  display: none;
+}
+
+/* Icons */
+
+.accordion:before {
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.Support {
+  width: 200px;
+  height: 48px;
+  border: 1px solid black;
+  margin: 0 auto;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  font-size: 17px;
+}
+
+footer a {
+  width: 25%;
+  justify-content: center;
+  display: flex;
+}
+
+.nav {
+  display: flex;
+  margin-left: 24px;
+  margin-top: 20px;
+}
+
+.swip {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swip img {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+}
+.chat {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.chat img {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+}
+.profile {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+}
+.support {
+  border-radius: 100%;
+  width: 53px;
+  height: 53px;
+  background-color: #ef546a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.support img {
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
